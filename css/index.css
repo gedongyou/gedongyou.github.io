@@ -1500,6 +1500,13 @@ a {
 a:hover {
   color: #49b1f5;
 }
+#site-title,
+#site-subtitle,
+.site-name,
+#aside-content .author-info__name,
+#aside-content .author-info__description {
+  font-family: Bungee Inline;
+}
 .is-center {
   text-align: center;
 }
