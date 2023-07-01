@@ -2508,7 +2508,7 @@ figure.highlight pre .javascript .function {
   margin: 0;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap .article-meta-label {
-  padding-right: 4px;
+  display: none;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap .article-meta-separator {
   margin: 0 6px;
