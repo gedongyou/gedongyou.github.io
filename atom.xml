@@ -3,11 +3,11 @@
   <title>GDY&#39;S BLOG</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://gedongyou.eu.org/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://gedongyou.eu.org/"/>
   <updated>2023-07-01T14:24:38.870Z</updated>
-  <id>http://example.com/</id>
+  <id>https://gedongyou.eu.org/</id>
   
   <author>
     <name>GDY</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo的搭建</title>
-    <link href="http://example.com/2023/06/20/hexo%E7%9A%84%E6%90%AD%E5%BB%BA-1/"/>
-    <id>http://example.com/2023/06/20/hexo%E7%9A%84%E6%90%AD%E5%BB%BA-1/</id>
+    <link href="https://gedongyou.eu.org/2023/06/20/hexo%E7%9A%84%E6%90%AD%E5%BB%BA-1/"/>
+    <id>https://gedongyou.eu.org/2023/06/20/hexo%E7%9A%84%E6%90%AD%E5%BB%BA-1/</id>
     <published>2023-06-20T11:20:44.000Z</published>
     <updated>2023-07-01T14:24:38.870Z</updated>
     
@@ -30,12 +30,12 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://gedongyou.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://gedongyou.eu.org/tags/hexo/"/>
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://gedongyou.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
