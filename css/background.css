@@ -55,3 +55,22 @@
     rgba(109, 186, 130, 0.1) 100%
   );
 }
+
+/*遮罩透明度*/
+:root {
+  --mark-bg: rgba(0,0,0,0.1);
+}
+
+/* 更换博客字体样式 */
+@font-face {
+  font-family: 'tzy';
+  /* 字体名自定义即可 */
+  src: url('https://gdy2008.eu.org/d/vps/youyuan.woff');
+  /* 字体文件路径 */
+  font-display: swap;
+}
+
+body,
+.gitcalendar {
+  font-family: tzy !important;
+}
