@@ -74,3 +74,10 @@ body,
 .gitcalendar {
   font-family: tzy !important;
 }
+
+@font-face {
+  font-family: 'iconfont';  /* Project id 4149697 */
+  src: url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.woff2?t=1688390969600') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.woff?t=1688390969600') format('woff'),
+       url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.ttf?t=1688390969600') format('truetype');
+}
