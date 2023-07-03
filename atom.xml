@@ -6,7 +6,7 @@
   <link href="https://gedongyou.eu.org/atom.xml" rel="self"/>
   
   <link href="https://gedongyou.eu.org/"/>
-  <updated>2023-07-01T14:24:38.870Z</updated>
+  <updated>2023-07-03T00:28:12.219Z</updated>
   <id>https://gedongyou.eu.org/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>eu.org域名申请教程</title>
+    <link href="https://gedongyou.eu.org/2023/07/03/eu-org%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E6%95%99%E7%A8%8B/"/>
+    <id>https://gedongyou.eu.org/2023/07/03/eu-org%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E6%95%99%E7%A8%8B/</id>
+    <published>2023-07-03T00:11:04.000Z</published>
+    <updated>2023-07-03T00:28:12.219Z</updated>
+    
+    <content type="html"><![CDATA[<p>eu.org免费域名从1996年就有了，由此可见是非常非常早，计划是专门给无力承担费用的一些组织使用的，现在我们来申请一个。</p><p>注册地址：<a href="https://nic.eu.org/arf/en/login/?next=/arf/en/">https://nic.eu.org/arf/en/login/?next=/arf/en/</a></p><p>点击：Register</p><p>然后成功后到邮箱（垃圾箱）找到邮件、激活，然后登录。</p><p>点击登录，然后点击：New domain</p><p>填写理想的完整域名例如：abcde.eu.org 同意协议；</p><p>域名服务器建议填写下面两个dnspod，否则无法转到cloudflare。</p><p>edmund.dnspod.net<br>dempsey.dnspod.net</p><p>这里先只选择server names，然后Submit，注意看检查页面，如果出现 No error,Done.说明成功了~</p><p>如果有错误，请返回修改！</p><p>域名审核1天——30天都有可能，所以慢慢等吧，经过我的测试，一个账号内最多可以申请4个免费域名。</p><p>eu.org域名通过后是有邮件通知的，但是都在垃圾箱。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;eu.org免费域名从1996年就有了，由此可见是非常非常早，计划是专门给无力承担费用的一些组织使用的，现在我们来申请一个。&lt;/p&gt;
+&lt;p&gt;注册地址：&lt;a href=&quot;https://nic.eu.org/arf/en/login/?next=/arf/en/&quot;&gt;https</summary>
+      
+    
+    
+    
+    
+    <category term="域名" scheme="https://gedongyou.eu.org/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="教程" scheme="https://gedongyou.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo的搭建</title>
@@ -33,9 +58,9 @@
     <category term="教程" scheme="https://gedongyou.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="hexo" scheme="https://gedongyou.eu.org/tags/hexo/"/>
-    
     <category term="教程" scheme="https://gedongyou.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="hexo" scheme="https://gedongyou.eu.org/tags/hexo/"/>
     
   </entry>
   
