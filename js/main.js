@@ -825,3 +825,4 @@ document.addEventListener('DOMContentLoaded', function () {
   refreshFn()
   unRefreshFn()
 })
+console.log("Failed to open the specified link")
