@@ -834,7 +834,7 @@ var ascii = `
  | |__| | |__| | | |     ____) | | |_) | |___| |__| | |__| |
   \_____|_____/  |_|    |_____/  |____/|______\____/ \_____|
                                                             
-                                                            ` console.log(`%c${ascii}`,'color:#e59de3') 
+                                                            ` console.log('color:#e59de3') 
 
 console.log('%cMy name is classicemi.', 'color: #fff; background: #f40; font-size: 24px;');
 
