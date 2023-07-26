@@ -826,7 +826,7 @@ document.addEventListener('DOMContentLoaded', function () {
   unRefreshFn()
 })
 
-var ascii = `
+/* var ascii = `
    _____ _______     ___  _____   ____  _      ____   _____ 
   / ____|  __ \ \   / ( )/ ____| |  _ \| |    / __ \ / ____|
  | |  __| |  | \ \_/ /|/| (___   | |_) | |   | |  | | |  __ 
@@ -834,7 +834,7 @@ var ascii = `
  | |__| | |__| | | |     ____) | | |_) | |___| |__| | |__| |
   \_____|_____/  |_|    |_____/  |____/|______\____/ \_____|
                                                             
-                                                            ` console.log('color:#e59de3') 
+                                                            ` console.log() 
 
 console.log('%cMy name is classicemi.', 'color: #fff; background: #f40; font-size: 24px;');
 
@@ -853,5 +853,5 @@ if (window.console) {
     }
 
 }
-
+*/
 
