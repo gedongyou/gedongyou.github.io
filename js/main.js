@@ -826,32 +826,15 @@ document.addEventListener('DOMContentLoaded', function () {
   unRefreshFn()
 })
 
-/* var ascii = `
-   _____ _______     ___  _____   ____  _      ____   _____ 
-  / ____|  __ \ \   / ( )/ ____| |  _ \| |    / __ \ / ____|
- | |  __| |  | \ \_/ /|/| (___   | |_) | |   | |  | | |  __ 
- | | |_ | |  | |\   /    \___ \  |  _ <| |   | |  | | | |_ |
- | |__| | |__| | | |     ____) | | |_) | |___| |__| | |__| |
-  \_____|_____/  |_|    |_____/  |____/|______\____/ \_____|
-                                                            
-                                                            ` console.log() 
+var ascii = `
+┏━━━┓┏━━━┓┏┓━━┏┓┏┓┏━━━┓━━━━┏━━┓━┏┓━━━┏━━━┓┏━━━┓
+┃┏━┓┃┗┓┏┓┃┃┗┓┏┛┃┃┃┃┏━┓┃━━━━┃┏┓┃━┃┃━━━┃┏━┓┃┃┏━┓┃
+┃┃━┗┛━┃┃┃┃┗┓┗┛┏┛┗┛┃┗━━┓━━━━┃┗┛┗┓┃┃━━━┃┃━┃┃┃┃━┗┛
+┃┃┏━┓━┃┃┃┃━┗┓┏┛━━━┗━━┓┃━━━━┃┏━┓┃┃┃━┏┓┃┃━┃┃┃┃┏━┓
+┃┗┻━┃┏┛┗┛┃━━┃┃━━━━┃┗━┛┃━━━━┃┗━┛┃┃┗━┛┃┃┗━┛┃┃┗┻━┃
+┗━━━┛┗━━━┛━━┗┛━━━━┗━━━┛━━━━┗━━━┛┗━━━┛┗━━━┛┗━━━┛
+                                                                                                                                                                                                                                                                                                                                             
+`
+console.log(`%c${ascii}`,'color:#0089FF')
 
-console.log('%cMy name is classicemi.', 'color: #fff; background: #f40; font-size: 24px;');
-
-if (window.console) {
-
-    var cons = console;
-
-    if (cons) {
-
-        cons.log("%c\n       ", "font-size:41px;background:url('http://cdn.iknow.bdimg.com/static/common/pkg/module_zed9cd9fd.png') no-repeat -135px -1px");
-
-        cons.log('想和我们共同打造世界最大中文互动问答平台吗？\n想让自己的成就在亿万用户面前展现吗？想让世界看得你的光芒吗？\n加入我们，在这里不仅是工作，投入你的时间和热情，滴滴汗水终会汇聚成不平凡的成果。\n期待你的加盟。（投简历地址被我砍了）');
-
-        cons.log("请在邮件中注明%c来自:console", "color:red;font-weight:bold;");
-
-    }
-
-}
-*/
-
+console.log(" %cQ群:759180470", "font-size: 20px; color: #fff; border-radius: 5px; padding: 10px 25px;background: linear-gradient(315deg, #cdb4db 0%, #ffafcc 50%, #a2d2ff 100%)");
