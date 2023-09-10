@@ -86,4 +86,24 @@
     
   </entry>
   
+  <entry>
+    <title>test</title>
+    <link href="https://gedongyou.github.io/posts/test/"/>
+    <id>https://gedongyou.github.io/posts/test/</id>
+    <published>2023-06-19T05:31:31.000Z</published>
+    <updated>2023-09-10T03:12:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">from turtle import</span><br><span class="line">forward(100)</span><br></pre></td></tr></table></figure><p><img src="https://oss.gedongyou.eu.org/blog01.jpg" alt="blog01.jpg"></p><p><img src="https://oss.gedongyou.eu.org/blog02.jpg" alt="blog02.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;from turtle import&lt;/sp</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
 </feed>
