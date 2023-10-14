@@ -1,4 +1,89 @@
-#web_bg {
+/* 动态背景 */
+#web_bg { 
+  background-color: #008cff;
+  background-image: radial-gradient(closest-side, rgb(67, 203, 255), rgba(235, 105, 78, 0)), radial-gradient(closest-side, rgb(151, 8, 204), rgba(243, 11, 164, 0)), radial-gradient(closest-side, rgb(94, 231, 223), rgba(254, 234, 131, 0)), radial-gradient(closest-side, rgb(180,144,202
+), rgba(170, 142, 245, 0));
+  background-size: 130vw 130vh, 120vw 120vh, 100vw 150vh, 120vw 130vh;
+  background-position: -80vw -80vh, 30vw -20vh, -20vw 20vh, 30vw 20vh;
+  background-repeat: no-repeat;
+  animation: 15s moiveAnimation infinite;
+}
+
+@keyframes moiveAnimation {
+  0%,
+  100% {
+      background-size: 130vw 130vh, 120vw 120vh, 100vw 150vh, 120vw 130vh;
+      background-position: -80vw -80vh, 30vw -20vh, -20vw 20vh, 30vw 20vh;
+  }
+  25% {
+      background-size: 120vw 120vh, 130vw 150vh, 130vw 120vh, 100vw 110vh;
+      background-position: -30vw -30vh, 40vw -10vh, 0vw 10vh, -10vw 20vh;
+  }
+  50% {
+      background-size: 130vw 130vh, 140vw 100vh, 100vw 150vh, 90vw 110vh;
+      background-position: 10vw -60vh, 20vw 10vh, 10vw 30vh, 10vw -20vh;
+  }
+  75% {
+      background-size: 140vw 140vh, 100vw 130vh, 100vw 150vh, 130vw 110vh;
+      background-position: -70vw -70vh, 0vw -10vh, 30vw -20vh, 20vw 30vh;
+  }
+}
+
+
+
+
+
+
+/*遮罩透明度*/
+:root {
+  --mark-bg: rgba(0,0,0,0.1);
+}
+
+
+/* 博客透明 */
+.layout > div:first-child:not(.recent-posts),
+#recent-posts > .recent-post-item,
+#aside-content .card-widget,
+.layout > .recent-posts .pagination > *:not(.space) {
+  background: rgba(239,239,239,.7);
+}
+
+
+
+
+/* 更换博客字体样式 */
+@font-face {
+  font-family: 'tzy';
+  /* 字体名自定义即可 */
+  src: url('https://gdy2008.eu.org/d/vps/ZhuZiAWan.woff2');
+  /* 字体文件路径 */
+  font-display: swap;
+}
+
+body,
+.gitcalendar {
+  font-family: tzy !important;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* Project id 4149697 */
+  src: url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.woff2?t=1688390969600') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.woff?t=1688390969600') format('woff'),
+       url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.ttf?t=1688390969600') format('truetype');
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 已废弃的背景 */
+/* #web_bg { 
   background: -webkit-linear-gradient(
     0deg,
     rgba(247, 149, 51, 0.1) 0,
@@ -55,29 +140,4 @@
     rgba(109, 186, 130, 0.1) 100%
   );
 }
-
-/*遮罩透明度*/
-:root {
-  --mark-bg: rgba(0,0,0,0.1);
-}
-
-/* 更换博客字体样式 */
-@font-face {
-  font-family: 'tzy';
-  /* 字体名自定义即可 */
-  src: url('https://gdy2008.eu.org/d/vps/ZhuZiAWan.woff2');
-  /* 字体文件路径 */
-  font-display: swap;
-}
-
-body,
-.gitcalendar {
-  font-family: tzy !important;
-}
-
-@font-face {
-  font-family: 'iconfont';  /* Project id 4149697 */
-  src: url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.woff2?t=1688390969600') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.woff?t=1688390969600') format('woff'),
-       url('//at.alicdn.com/t/c/font_4149697_zk9mtk9o12.ttf?t=1688390969600') format('truetype');
-}
+*/
