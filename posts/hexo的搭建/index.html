@@ -279,8 +279,8 @@ document.addEventListener('pjax:send', () => {
   const loadWaline = async () => {
     if (typeof Waline === 'object') initWaline()
     else {
-      await getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css')
-      await getScript('https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js')
+      await getCSS('https://cdn.staticfile.org/waline/2.15.8/waline.min.css')
+      await getScript('https://cdn.staticfile.org/waline/2.15.8/waline.min.js')
       initWaline()
     }
   }
