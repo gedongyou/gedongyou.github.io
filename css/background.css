@@ -1,5 +1,6 @@
 /* 动态背景 */
-#web_bg { 
+
+/* #web_bg {  
   background-color: #008cff;
   background-image: radial-gradient(closest-side, rgb(67, 203, 255), rgba(235, 105, 78, 0)), radial-gradient(closest-side, rgb(151, 8, 204), rgba(243, 11, 164, 0)), radial-gradient(closest-side, rgb(94, 231, 223), rgba(254, 234, 131, 0)), radial-gradient(closest-side, rgb(180,144,202
 ), rgba(170, 142, 245, 0));
@@ -28,7 +29,7 @@
       background-position: -70vw -70vh, 0vw -10vh, 30vw -20vh, 20vw 30vh;
   }
 }
-
+  */ 
 
 
 
@@ -45,8 +46,8 @@
 #recent-posts > .recent-post-item,
 #aside-content .card-widget,
 .layout > .recent-posts .pagination > *:not(.space) {
-  background: rgba(239,239,239,.7);
-}
+  background: rgba(239,239,239,.5);
+} 
 
 
 
@@ -75,7 +76,7 @@ body,
 
 
 /* 已废弃的背景 */
-/* #web_bg { 
+#web_bg { 
   background: -webkit-linear-gradient(
     0deg,
     rgba(247, 149, 51, 0.1) 0,
@@ -132,4 +133,3 @@ body,
     rgba(109, 186, 130, 0.1) 100%
   );
 }
-*/
