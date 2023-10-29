@@ -1,0 +1,125 @@
+/* Aplayer日间模式调整 */
+/* 背景色 */
+.aplayer {
+    background: rgba(255, 255, 255, 0.6) !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.07), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .aplayer.aplayer-fixed .aplayer-lrc:after,
+  .aplayer.aplayer-fixed .aplayer-lrc:before {
+    display: none;
+  }
+  
+  .aplayer.aplayer.aplayer-fixed .aplayer-body {
+    background: rgba(255, 255, 255, 0.6) !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.07), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+  }
+  
+  /* 滚动条 */
+  .aplayer .aplayer-list ol::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .aplayer .aplayer-list ol::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: var(--theme-color) !important;
+  }
+  
+  .aplayer .aplayer-list ol::-webkit-scrollbar-thumb:hover {
+    background-color: var(--theme-color) !important;
+  }
+  
+  /* 圆角 */
+  .aplayer.aplayer-fixed .aplayer-list {
+    border-radius: 6px 6px 0 0 !important;
+  }
+  
+  .aplayer.aplayer-fixed .aplayer-miniswitcher {
+    border-radius: 0 6px 6px 0 !important;
+  }
+  
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    transition: 0.28s !important;
+    border-radius: 6px !important;
+  }
+  
+  /* 选中与播放中歌曲激活颜色 */
+  .aplayer .aplayer-list ol li:hover {
+    background: var(--theme-color) !important;
+  }
+  
+  .aplayer .aplayer-list ol li.aplayer-list-light {
+    background: var(--theme-color) !important;
+  }
+  
+  /* 歌词 */
+  .aplayer-lrc p {
+    color: #ffffff !important;
+    text-shadow: #000000 1px 0 0, #000000 0 1px 0, #000000 -1px 0 0, #000000
+        0 -1px 0 !important;
+  }
+  
+  /* Aplayer黑暗模式 */
+  [data-theme="dark"] .aplayer {
+    background: rgba(22, 22, 22, 0.6) !important;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.07), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  [data-theme="dark"] .aplayer.aplayer-fixed .aplayer-body {
+    background: rgba(22, 22, 22, 0.6) !important;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.07), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  [data-theme="dark"]
+    .aplayer
+    .aplayer-info
+    .aplayer-controller
+    .aplayer-time
+    .aplayer-icon
+    path {
+    fill: #d4d4d4;
+  }
+  
+  [data-theme="dark"] .aplayer .aplayer-list ol li:hover {
+    background: var(--theme-color) !important;
+  }
+  
+  [data-theme="dark"] .aplayer .aplayer-list ol li.aplayer-list-light {
+    background: var(--theme-color) !important;
+  }
+  
+  [data-theme="dark"] .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+    color: #d4d4d4;
+  }
+  
+  [data-theme="dark"] .aplayer .aplayer-list ol li .aplayer-list-index {
+    color: #d4d4d4;
+  }
+  
+  [data-theme="dark"] .aplayer .aplayer-list ol li .aplayer-list-author {
+    color: #d4d4d4;
+  }
+
+
+  [data-theme="dark"] #web_bg {
+     
+    /* 背景图像的地址（url括号里）  */
+    background: url(https://gdy2008.eu.org/d/vps/pictuers/img/dark.jpg);
+    /* 背景图像不重复 */
+    background-repeat: no-repeat;
+    /* 背景图像大小 */
+    background-size: cover;
+  }
+
+
+  /* [data-theme="dark"].layout > div:first-child:not(.recent-posts),
+  [data-theme="dark"]#recent-posts > .recent-post-item,
+  [data-theme="dark"]#aside-content .card-widget,
+  [data-theme="dark"].layout > .recent-posts .pagination > *:not(.space) {
+    background: rgba(52, 52, 52, 0);
+  } 
+   */
