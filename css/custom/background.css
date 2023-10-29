@@ -46,7 +46,7 @@
 #recent-posts > .recent-post-item,
 #aside-content .card-widget,
 .layout > .recent-posts .pagination > *:not(.space) {
-  background: rgba(239,239,239,.5);
+  background: rgba(255, 255, 255,.7);
 } 
 
 
@@ -67,7 +67,7 @@ body,
 
 
 
-
+/* 
 #web_bg { 
   background: -webkit-linear-gradient(
     0deg,
@@ -124,4 +124,4 @@ body,
     rgba(7, 179, 155, 0.1) 86%,
     rgba(109, 186, 130, 0.1) 100%
   );
-}
+} */
