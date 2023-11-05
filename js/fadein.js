@@ -8,7 +8,7 @@ for(var i = 0;i<arr.length;i++){
     // 动画执行时间
     arr[i].setAttribute("data-wow-duration", "1.5s"),
     // 动画延迟多久后执行
-    arr[i].setAttribute("data-wow-delay", "0"),
+    arr[i].setAttribute("data-wow-delay", "1s"),
     // 动画执行次数
     arr[i].setAttribute("data-wow-iteration", "1")
   }

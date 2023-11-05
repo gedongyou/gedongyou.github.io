@@ -41,13 +41,48 @@
 }
 
 
-/* 博客透明 */
-.layout > div:first-child:not(.recent-posts),
-#recent-posts > .recent-post-item,
-#aside-content .card-widget,
-.layout > .recent-posts .pagination > *:not(.space) {
-  background: rgba(255, 255, 255,.7);
-} 
+
+/*所有页面实现毛玻璃特效*/
+#aside-content{
+  background: rgba(255,255,255,0);
+}
+
+#aside-content > .card-widget:first-child {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+}
+
+#aside-content .card-widget {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.layout > div:first-child:not(.recent-posts) {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+}
+
+#recent-posts > .recent-post-item {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+}
+
+/*标题栏*/
+#page-header.nav-visible #nav {
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(50px);
+}
+
+/*手机端毛玻璃优化*/
+#sidebar #sidebar-menus.open {
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(10px);
+}
+
+#sidebar #menu-mask {
+  background: rgba(255,255,255,0);
+}
+
 
 
 
