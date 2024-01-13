@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const { highlightCopy, highlightLang, highlightHeightLimit, plugin } = highLight
     const isHighlightShrink = GLOBAL_CONFIG_SITE.isHighlightShrink
     const isShowTool = highlightCopy || highlightLang || isHighlightShrink !== undefined
-    const $figureHighlight = plugin === 'highlight.js' ? document.querySelectorAll('figure.highlight') : document.querySelectorAll('pre[class*="language-"]')
+    const $figureHighlight = plugin === 'highlighjs' ? document.querySelectorAll('figure.highlight') : document.querySelectorAll('pre[class*="language-"]')
 
     if (!((isShowTool || highlightHeightLimit) && $figureHighlight.length)) return
 
@@ -75,23 +75,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const highlightShrinkEle = isHighlightShrink !== undefined ? '<i class="fas fa-angle-down expand"></i>' : ''
     const highlightCopyEle = highlightCopy ? '<div class="copy-notice"></div><i class="fas fa-paste copy-button"></i>' : ''
 
-    const alertInfo = (ele, text) => {
-      if (GLOBAL_CONFIG.Snackbar !== undefined) {
-        btf.snackbarShow(text)
-      } else {
-        const prevEle = ele.previousElementSibling
-        prevEle.textContent = text
-        prevEle.style.opacity = 1
-        setTimeout(() => { prevEle.style.opacity = 0 }, 800)
-      }
-    }
-
-    const copy = ctx => {
+    const copy = (text, ctx) => {
       if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
         document.execCommand('copy')
-        alertInfo(ctx, GLOBAL_CONFIG.copy.success)
+        if (GLOBAL_CONFIG.Snackbar !== undefined) {
+          btf.snackbarShow(GLOBAL_CONFIG.copy.success)
+        } else {
+          const prevEle = ctx.previousElementSibling
+          prevEle.textContent = GLOBAL_CONFIG.copy.success
+          prevEle.style.opacity = 1
+          setTimeout(() => { prevEle.style.opacity = 0 }, 700)
+        }
       } else {
-        alertInfo(ctx, GLOBAL_CONFIG.copy.noSupport)
+        if (GLOBAL_CONFIG.Snackbar !== undefined) {
+          btf.snackbarShow(GLOBAL_CONFIG.copy.noSupport)
+        } else {
+          ctx.previousElementSibling.textContent = GLOBAL_CONFIG.copy.noSupport
+        }
       }
     }
 
@@ -105,7 +105,8 @@ document.addEventListener('DOMContentLoaded', function () {
       range.selectNodeContents($buttonParent.querySelectorAll(`${preCodeSelector}`)[0])
       selection.removeAllRanges()
       selection.addRange(range)
-      copy(ele.lastChild)
+      const text = selection.toString()
+      copy(text, ele.lastChild)
       selection.removeAllRanges()
       $buttonParent.classList.remove('copy-true')
     }
@@ -782,7 +783,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const commentContainer = document.getElementById('post-comment')
     const handleSwitchBtn = () => {
       commentContainer.classList.toggle('move')
-      if (!switchDone && typeof loadOtherComment === 'function') {
+      if (!switchDone) {
         switchDone = true
         loadOtherComment()
       }
