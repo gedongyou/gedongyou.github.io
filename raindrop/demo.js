@@ -1,5 +1,5 @@
 /**
- * @typedef {import("./bundle")}
+ * @typedef {import("./raindrop/bundle")}
  */
 
 const canvas = document.querySelector("#canvas");
@@ -9,7 +9,7 @@ canvas.height = rect.height;
 
 const raindropFx = new RaindropFX({
     canvas: canvas,
-    background: "./assets/img/君の名は_dark.jpg",
+    background: "./raindrop/assets/img/君の名は_dark.jpg",
     // backgroundBlurSteps: 0
 });
 
